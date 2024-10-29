@@ -104,7 +104,7 @@ By the end of the project, we expect to deliver:
    ```
 
 ### Running the App
-1. In your terminal, navigate to the directory containing your Streamlit app files.
+1. In your terminal, navigate to the Version_1_scripts.
 2. Start the app with the following command:
    ```bash
    streamlit run app.py

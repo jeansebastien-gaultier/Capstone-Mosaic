@@ -90,3 +90,30 @@ By the end of the project, we expect to deliver:
 - **Integration with Real-Time Data Sources**: Expand the dataset by incorporating real-time financial data to keep the model up-to-date.
 - **Performance Optimization**: Work on reducing computational costs while maintaining or improving model accuracy.
 - **User Interface Development**: Create a user-friendly interface for retail investors to interact with the model.
+
+
+# Running Version 1
+
+## How to Run the Streamlit App
+
+### Prerequisites
+1. Make sure you have **Python 3.11** installed.
+2. Install the required dependencies by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running the App
+1. In your terminal, navigate to the directory containing your Streamlit app files.
+2. Start the app with the following command:
+   ```bash
+   streamlit run app.py
+   ```
+   > **Note**: Replace `app.py` with the name of your Streamlit application file if it’s different.
+
+3. Open a web browser and go to `http://localhost:8501` to view the app.
+
+### Additional Notes
+- If you encounter issues, ensure that all required packages in `requirements.txt` are installed, and that your Python version is compatible.
+- To stop the app, press `Ctrl + C` in your terminal.
+

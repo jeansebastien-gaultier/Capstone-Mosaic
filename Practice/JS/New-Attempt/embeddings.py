@@ -38,6 +38,8 @@ def split_text(text: str, chunk_size: int = 1000, overlap: int = 200) -> List[st
         start = end - overlap
     return chunks
 
+mailto:dheerajmaroju@gmail.com
+
 def load_and_split_pdfs(data_folder: str) -> List[Dict]:
     """
     Load all PDFs from a folder and split them into chunks.

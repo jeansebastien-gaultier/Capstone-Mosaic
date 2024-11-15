@@ -6,6 +6,7 @@ from typing import List, Dict, Any
 from langchain_cohere import ChatCohere
 import os
 from dotenv import load_dotenv
+#from langchain_community.llms import Ollama
 
 # Load environment variables from .env file
 load_dotenv()

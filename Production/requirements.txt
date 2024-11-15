@@ -1,0 +1,8 @@
+numpy
+faiss-cpu
+sentence-transformers
+groq
+requests
+beautifulsoup4
+pdfplumber
+nltk

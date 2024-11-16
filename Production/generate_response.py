@@ -6,7 +6,7 @@ from groq import Groq
 import sys
 
 
-def generate_response(query, prompt_engineering):
+def generate_response(symbol, query, prompt_engineering):
     with open(f"{symbol}_text_metadata.pkl", "rb") as file:
         text_chunks = pickle.load(file)
 
@@ -51,8 +51,7 @@ def main(symbol, question):
     # Load the pickle file
 
     prompt_engineering = "Please limit the response to 5 sentences, and use visual language to explain the concept. No images, and no newlines just a short one sentence overall summary, then the next few building up a story to support the summary."
-    response = generate_response(question, prompt_engineering)
-    print(response)
+    response = generate_response(symbol, question, prompt_engineering)
     with open(f"response.txt", "w", encoding="utf-8") as file:
         file.write(response)
 
